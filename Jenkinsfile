@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-               sh 'echo this is deploy'
+               sh 'echo this is deployed'
             }
         }
         stage("print params"){
